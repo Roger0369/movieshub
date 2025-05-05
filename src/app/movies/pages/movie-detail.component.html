@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <a routerLink="/catalogo"><button class="btn">Menú principal</button></a>
+</nav>
+
+<div class="content" *ngIf="movie as m">
+  <img [src]="m.image" [alt]="m.name" />
+  <div class="description">
+    <h1>{{ m.name }}</h1>
+    <p>{{ m.description }}</p>
+
+    <h2>Ficha técnica</h2>
+    <ul>
+      <li><strong>Director:</strong> {{ m.director }}</li>
+      <li><strong>Casting principal:</strong> {{ m.cast }}</li>
+      <li><strong>Fecha de lanzamiento:</strong> {{ m.releaseDate }}</li>
+    </ul>
+  </div>
+</div>
+
+<h3 *ngIf="suggestions.length > 0">Te podría gustar</h3>
+<div class="section">
+  <div class="card" *ngFor="let m of suggestions">
+    <img [src]="m.image" [alt]="m.name" />
+    <button (click)="seeDetails(m)" class="btn">Ver / Más información</button>
+  </div>
+</div>
+
+
+  
