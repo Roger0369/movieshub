@@ -6,7 +6,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![Texto alternativo](./testing_images/Jasmine_test.png)
 
-![Texto alternativo](./testing_images/coverage_test.png)
+![Texto alternativo](./testing_images/coverage_tes.png)
+
+![Texto alternativo](./testing_images/app_service.png)
+
+![Texto alternativo](./testing_images/catalog_test.png)
+
+![Texto alternativo](./testing_images/login_test.png)
+
+![Texto alternativo](./testing_images/movie_service.png)
 
 ## Development server
 
