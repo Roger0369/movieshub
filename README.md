@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# SPRINT 2 Proyecto Migrado a Angular
+
+Este proyecto originalmente fue desarrollado utilizando **Vanilla JavaScript**, pero ha sido completamente migrado a **Angular** para aprovechar una estructura más moderna de desarrollo.
+
+---
+
+## Tecnologías utilizadas
+
+- [Angular](https://angular.io/) (versión 18)
+- TypeScript
+- Node.js
+- Angular CLI
+
+---
+
+## Requisitos previos
+
+Instalar lo siguiente:
+
+- **Node.js** (>= 18.x recomendado) → [Descargar Node.js](https://nodejs.org/)
+- **Angular CLI** (si no lo tienes, puedes instalarlo con `npm install -g @angular/cli`)
+
+---
+
+## Migración desde Vanilla JS 
+
+La migracion se integro en la rama angular-migration
