@@ -19,7 +19,7 @@ MovieHub es una página web de simulación de películas streaming, con una pant
 Accede al proyecto mediante el siguiente enlace:
 
 
-# 💻 Método 2: De manera local
+# Método 2: De manera local
 1. Descarga o clona el repositorio desde:  
    `https://www.github.com/repo`
 2. Abre el archivo `index.html` con tu navegador (Chrome, Edge, etc.)
@@ -87,7 +87,7 @@ Este proyecto originalmente fue desarrollado utilizando **Vanilla JavaScript**, 
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - [Angular](https://angular.io/) (versión 18)
 - TypeScript
@@ -96,7 +96,7 @@ Este proyecto originalmente fue desarrollado utilizando **Vanilla JavaScript**, 
 
 ---
 
-## 📦 Requisitos previos
+## Requisitos previos
 
 Instalar lo siguiente:
 
@@ -105,7 +105,7 @@ Instalar lo siguiente:
 
 ---
 
-## 🚧 Migración desde Vanilla JS 
+## Migración desde Vanilla JS 
 
 La migracion se integro en la rama angular-migration
 
@@ -115,7 +115,7 @@ En la rama (`angular-testing`) se creó con el propósito de implementar y docum
 
 ---
 
-## 🔍 Objetivo de la rama `angular-testing`
+## Objetivo de la rama `angular-testing`
 
 El commit principal de esta rama introduce pruebas para:
 
