@@ -1,0 +1,29 @@
+<nav class="navbar">
+  <button (click)="loadMovies()" class="btn">Menú principal</button>
+  <button (click)="showFavorites()" class="btn">Ver favoritos</button>
+  <button (click)="restoreHiddenMovies()" class="btn">Restaurar ocultos</button>
+</nav>
+
+<div *ngIf="notificationMessage" class="notification">
+  {{ notificationMessage }}
+</div>
+
+<div class="movies">
+  <div class="movie" *ngFor="let movie of movies">
+    <img [src]="movie.image" [alt]="movie.name" />
+    <strong>{{ movie.name }}</strong>
+    <p>{{ movie.description }}</p>
+    <div class="actions">
+      <button (click)="seeDetails(movie)" class="btn">Ver / Más información</button>
+      <button (click)="toggleFavorite(movie.name)"
+              [ngClass]="{ added: movieService.isFavorite(movie.name) }"
+              class="btnFavorite">
+        {{ movieService.isFavorite(movie.name) ? 'Quitar de favoritos' : 'Añadir a favoritos' }}
+      </button>
+      <button *ngIf="!movieService.isFavorite(movie.name)"
+              (click)="hideMovie(movie.name)" class="btn btnHide">
+        Ocultar película
+      </button>
+    </div>
+  </div>
+</div>
