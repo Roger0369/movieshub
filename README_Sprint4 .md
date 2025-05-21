@@ -27,8 +27,8 @@ Contiene el backend construido en **ASP.NET Core** con la siguiente organizació
 - `appsettings.json`: Configuración de la conexión con SQL Server.
 
 
-![Texto alternativo](img_Readme\thunder_verificacion.png)
----
+![Texto alternativo](img_Readme/thunder_verificacion.png)
+
 
 ### `frontend`
 Contiene el frontend desarrollado con **Angular**:
@@ -52,7 +52,7 @@ Contiene los scripts SQL necesarios para levantar la base de datos en SQL Server
   );
   ```
 
-![Texto alternativo](\img_Readme\login_sql.png)
+![Texto alternativo](img_Readme/login_sql.png)
 
 - **` Insercion de Tablas.sql`**:  
   Script para definir otras tablas como `Movies`, `Categories`, etc.  
@@ -66,8 +66,7 @@ Contiene los scripts SQL necesarios para levantar la base de datos en SQL Server
       ReleaseDate DATE
   );
   ```
-![Texto alternativo](img_Readme\BD_diagrama.png)
----
+![Texto alternativo](img_Readme/BD_diagrama.png)
 
 ## Tecnologías Utilizadas
 
